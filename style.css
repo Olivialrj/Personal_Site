@@ -16,19 +16,41 @@ body {
     color: black;
 }
 
+/* #index-main {
+    background-color: #FCD5CE;
+    text-align: left;
+    margin: 100px 300px 100px 250px;
+    /* top-right-bottom-left */
+    /* height: 450px;
+    width: 600px;
+    padding: 40px;
+    font-size: 20px; */
+} */
+
 #index-main {
     background-color: #FCD5CE;
     text-align: left;
-    margin: 100px 100px 100px 250px;
-    /* top-right-bottom-left */
-    height: 450px;
-    width: 600px;
-    padding: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    /* padding: 40px; Add padding to provide space inside the main container */
+    font-size: 20px; /* Adjust font size as needed */
 }
 
-#about {
-   font-size: 20px ;
+#index-main section {
+    background-color: #FCD5CE;
+    display: flex; /* Use flexbox for layout */
+    margin: 100px 700px 0px 300px; /* Adjust margin as needed */
+    padding: 70px 50px 70px 70px;
+    align-items: center; /* Center items vertically within the section */
+}
+
+.index-main-img {
+    width: auto; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 70px; /* Add space between image and text */
+    /* margin-right: 50px; */
+}
+
+.header-subject {
+   font-size: 25px ;
    padding: 40px;
     margin: 50px 250px 0px 250px;
 }
@@ -40,7 +62,6 @@ body {
     width: 1100px;
     padding: 40px;
     margin: 20px 100px 100px 250px;
-
 }
 
 #interest {
@@ -48,6 +69,7 @@ body {
     margin-bottom: 30px;
     margin-top: 15px;
 }
+
 
 .about-portfolio h3 {
     font-size: 25px;
@@ -58,10 +80,9 @@ body {
 }
 
 .about-portfolio p {
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     margin: auto;
-    display: block;
 }
 
 .about-portfolio img {
@@ -70,4 +91,5 @@ body {
     height: 250px;  
     width: 300px;
     margin-left: auto;
+    margin-top: 20px;
 }
